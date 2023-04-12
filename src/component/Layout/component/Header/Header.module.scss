@@ -1,0 +1,30 @@
+.wapper {
+  height: 76px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+  .inner {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.button-login,
+.button-signup {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin-left: 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.button-login {
+  background-color: var(--primary--color);
+}
+.button-signup {
+  color: var(--primary--color);
+  border: 1px solid var(--primary--color);
+}
+.profile {
+  border: 1px solid var(--primary--color);
+}

@@ -1,0 +1,103 @@
+.wapper {
+  min-height: 100vh;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner {
+  display: flex;
+  width: 700px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+}
+.right {
+  background-image: url("https://cf.quizizz.com/image/classroom-enjoyment.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 250px;
+  border-radius: 0 10px 10px 0;
+}
+.left {
+  padding: 20px;
+  width: 450px;
+}
+.form {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.label {
+  padding-top: 10px;
+  font-weight: 700;
+}
+.input {
+  outline: none;
+  padding: 10px;
+  border: #5e5e5e80 1px solid;
+}
+.link {
+  text-decoration: none;
+  color: rgb(182, 13, 182);
+  padding: 10px 0;
+  font-weight: 700;
+}
+.button {
+  font-size: 1rem;
+  color: white;
+  font-weight: 600;
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: rgb(219, 32, 94);
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.8;
+}
+p {
+  padding-top: 20px;
+}
+.divider {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(116, 116, 116, 0.466);
+}
+.divider::after,
+.divider::before {
+  content: "";
+  background-color: rgba(116, 116, 116, 0.466);
+  width: 150px;
+  height: 1px;
+  display: block;
+}
+.divider::after {
+  margin-left: 5px;
+}
+.divider::before {
+  margin-right: 5px;
+}
+.box {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.icon-facebook {
+  margin-right: 20px;
+  font-size: 30px;
+  color: #1b74e4;
+}
+.icon-google {
+  font-size: 30px;
+  color: red;
+  margin-right: 20px;
+}
+.icon-github {
+  font-size: 30px;
+}
